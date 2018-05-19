@@ -21,7 +21,7 @@ main(){
    
     sort(vii.begin(),vii.end());
     
-    
+     
     for(int i=n-1;i!=-1;i--){
         for(int j=i-1;j!=-1;j--){
             if(vii[i].first != vii[j].first && vii[j].second > vii[i].second && vii[j].second <= n){

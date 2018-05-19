@@ -10,6 +10,9 @@ class twosum:
     def prt(self):
         for i in self.box:
             print(i + " ",end="")
+    def couple_sum(self):
+        
 num = twosum()
 num.get_num()
 num.prt()
+
